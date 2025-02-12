@@ -17,4 +17,4 @@ jobs:
         run: npm install -g surge
 
       - name: Deploy to Surge
-        run: surge ./ https://mi-pagina.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ https://electivap1.surge.sh --token ${{ secrets.SURGE_TOKEN }}
